@@ -77,11 +77,11 @@ public class Order implements Serializable {
 		}
 	}
 
-	public User getCliente() {
+	public User getClient() {
 		return client;
 	}
 
-	public void setCliente(User client) {
+	public void setClient(User client) {
 		this.client = client;
 	}
 
